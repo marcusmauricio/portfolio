@@ -1,3 +1,7 @@
+:root {
+    --border-color: #d6d6d6;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -23,7 +27,7 @@ nav div {
 }
 
 .SeparatorRoot {
-    background-color: #d6d6d6;
+    background-color: var(--border-color);
 }
 .SeparatorRoot[data-orientation="horizontal"] {
     height: 1px;
